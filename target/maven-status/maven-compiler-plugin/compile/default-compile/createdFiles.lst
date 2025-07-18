@@ -1,0 +1,4 @@
+pages\RegisterPage.class
+baseClass\BaseClass.class
+stepDef\MyStepdefs.class
+util\Utilities.class

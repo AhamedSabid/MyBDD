@@ -1,6 +1,9 @@
-import io.cucumber.testng.AbstractTestNGCucumberTests;
-import io.cucumber.testng.CucumberOptions;
+import io.cucumber.junit.CucumberOptions;
 
+import io.cucumber.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDef",
@@ -9,5 +12,5 @@ import io.cucumber.testng.CucumberOptions;
         monochrome = true
 )
 
-public class RunnerClass extends AbstractTestNGCucumberTests {
+public class Rubber {
 }

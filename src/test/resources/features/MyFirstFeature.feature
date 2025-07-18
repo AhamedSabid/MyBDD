@@ -1,3 +1,4 @@
+@smoke
 Feature: This a feature file for my BDD FW dev
 
   Scenario: This is my first scenario for my BDD
@@ -7,7 +8,7 @@ Feature: This a feature file for my BDD FW dev
     And wait for 3 seconds
     And Close the browser
 
-  @smoke
+
   Scenario: This is my second scenario for my BDD
     Given I have a url "https://demo.automationtesting.in/Register.html"
     When I fill firstname as "Arun" and Lastname as "Kumar"
